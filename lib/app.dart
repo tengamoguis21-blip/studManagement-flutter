@@ -528,8 +528,7 @@ class _StudentDetailsState extends State<StudentDetails> {
  builder: (dialog) => AlertDialog(
  title: const Text('Delete this student?'),
  content: Text(
- '${widget.student.name}\n${widget.student.number}\n\nThis permanently removes the record from both ap
- ps.',
+ '${widget.student.name}\n${widget.student.number}\n\nThis permanently removes the record from both apps.',
  ),
  actions: [
  TextButton(

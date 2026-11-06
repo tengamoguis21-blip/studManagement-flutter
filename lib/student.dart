@@ -1,4 +1,4 @@
-ass Student {
+class Student {
  const Student({
  required this.id,
  required this.number,

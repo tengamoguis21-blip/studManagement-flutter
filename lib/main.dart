@@ -17,8 +17,7 @@ Future<void> main() async {
  child: Padding(
  padding: EdgeInsets.all(24),
  child: Text(
- 'Add your Supabase URL and publishable key to config/app.json, then rebuild the app. Never use
- a database password or secret key here.',
+ 'Add your Supabase URL and publishable key to config/app.json, then rebuild the app. Never use a database password or secret key here.',
  ),
  ),
  ),
